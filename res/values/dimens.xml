@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- <dimen name="popup_margin_top">16dip</dimen> -->
+    <!-- <dimen name="popup_padding">10dip</dimen> -->
+    <dimen name="popup_margin_top">0dip</dimen>
+    <dimen name="popup_padding">0dip</dimen>
+
+    <!-- <dimen name="action_item_h_padding_left">5dip</dimen> -->
+    <!-- <dimen name="action_item_h_padding_right">5dip</dimen> -->
+    <!-- <dimen name="action_item_v_padding_left">5dip</dimen> -->
+    <!-- <dimen name="action_item_v_padding_right">10dip</dimen> -->
+    <dimen name="action_item_h_padding_left">0dip</dimen>
+    <dimen name="action_item_h_padding_right">0dip</dimen>
+    <dimen name="action_item_v_padding_left">0dip</dimen>
+    <dimen name="action_item_v_padding_right">0dip</dimen>
+
+</resources>

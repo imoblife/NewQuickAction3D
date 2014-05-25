@@ -7,7 +7,7 @@
 	    
 	<ScrollView 
 		android:id="@+id/scroller"
-		android:layout_marginTop="16dip"
+		android:layout_marginTop="@dimen/popup_margin_top"
     	android:layout_width="wrap_content"
     	android:layout_height="wrap_content"
     	android:background="@drawable/popup"
@@ -20,22 +20,22 @@
 	        android:layout_width="wrap_content"
 	        android:layout_height="wrap_content"
 	        android:layout_weight="1"
-	        android:padding="10dip"/>
+	        android:padding="@dimen/popup_padding"/>
        
 	</ScrollView >
  	
- 	<ImageView
-        android:id="@+id/arrow_up"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/arrow_up" />
+<!--  	<ImageView -->
+<!--         android:id="@+id/arrow_up" -->
+<!--         android:layout_width="wrap_content" -->
+<!--         android:layout_height="wrap_content" -->
+<!--         android:src="@drawable/arrow_up" /> -->
         
- 	<ImageView
-        android:id="@+id/arrow_down"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-    	android:layout_below="@id/scroller"
-      	android:layout_marginTop="-4dip"
-        android:src="@drawable/arrow_down" />
+<!--  	<ImageView -->
+<!--         android:id="@+id/arrow_down" -->
+<!--         android:layout_width="wrap_content" -->
+<!--         android:layout_height="wrap_content" -->
+<!--     	android:layout_below="@id/scroller" -->
+<!--       	android:layout_marginTop="-4dip" -->
+<!--         android:src="@drawable/arrow_down" /> -->
 
 </RelativeLayout>

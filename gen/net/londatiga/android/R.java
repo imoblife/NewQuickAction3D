@@ -28,11 +28,27 @@ public final class R {
     }
     public static final class attr {
     }
+    public static final class dimen {
+        /**  <dimen name="action_item_h_padding_left">5dip</dimen> 
+ <dimen name="action_item_h_padding_right">5dip</dimen> 
+ <dimen name="action_item_v_padding_left">5dip</dimen> 
+ <dimen name="action_item_v_padding_right">10dip</dimen> 
+         */
+        public static int action_item_h_padding_left=0x7f050002;
+        public static int action_item_h_padding_right=0x7f050003;
+        public static int action_item_v_padding_left=0x7f050004;
+        public static int action_item_v_padding_right=0x7f050005;
+        /**  <dimen name="popup_margin_top">16dip</dimen> 
+ <dimen name="popup_padding">10dip</dimen> 
+         */
+        public static int popup_margin_top=0x7f050000;
+        public static int popup_padding=0x7f050001;
+    }
     public static final class drawable {
         public static int action_item_btn=0x7f020000;
         public static int action_item_selected=0x7f020001;
-        public static int arrow_down=0x7f020002;
-        public static int arrow_up=0x7f020003;
+        public static int arrow_down2=0x7f020002;
+        public static int arrow_up2=0x7f020003;
         public static int icon=0x7f020004;
         public static int menu_cancel=0x7f020005;
         public static int menu_down_arrow=0x7f020006;
@@ -44,15 +60,13 @@ public final class R {
         public static int popup=0x7f02000c;
     }
     public static final class id {
-        public static int arrow_down=0x7f070008;
-        public static int arrow_up=0x7f070007;
-        public static int btn1=0x7f070002;
-        public static int btn2=0x7f070003;
-        public static int btn3=0x7f070004;
-        public static int iv_icon=0x7f070000;
-        public static int scroller=0x7f070005;
-        public static int tracks=0x7f070006;
-        public static int tv_title=0x7f070001;
+        public static int btn1=0x7f080002;
+        public static int btn2=0x7f080003;
+        public static int btn3=0x7f080004;
+        public static int iv_icon=0x7f080000;
+        public static int scroller=0x7f080005;
+        public static int tracks=0x7f080006;
+        public static int tv_title=0x7f080001;
     }
     public static final class layout {
         public static int action_item_horizontal=0x7f030000;
@@ -63,24 +77,24 @@ public final class R {
         public static int popup_vertical=0x7f030005;
     }
     public static final class string {
-        public static int app_name=0x7f050001;
-        public static int hello=0x7f050000;
+        public static int app_name=0x7f060001;
+        public static int hello=0x7f060000;
     }
     public static final class style {
-        public static int Animations=0x7f060000;
+        public static int Animations=0x7f070000;
         /**  PopDownMenu 
          */
-        public static int Animations_PopDownMenu=0x7f060001;
-        public static int Animations_PopDownMenu_Center=0x7f060002;
-        public static int Animations_PopDownMenu_Left=0x7f060003;
-        public static int Animations_PopDownMenu_Reflect=0x7f060005;
-        public static int Animations_PopDownMenu_Right=0x7f060004;
+        public static int Animations_PopDownMenu=0x7f070001;
+        public static int Animations_PopDownMenu_Center=0x7f070002;
+        public static int Animations_PopDownMenu_Left=0x7f070003;
+        public static int Animations_PopDownMenu_Reflect=0x7f070005;
+        public static int Animations_PopDownMenu_Right=0x7f070004;
         /**  PopUpMenu 
          */
-        public static int Animations_PopUpMenu=0x7f060006;
-        public static int Animations_PopUpMenu_Center=0x7f060007;
-        public static int Animations_PopUpMenu_Left=0x7f060008;
-        public static int Animations_PopUpMenu_Reflect=0x7f06000a;
-        public static int Animations_PopUpMenu_Right=0x7f060009;
+        public static int Animations_PopUpMenu=0x7f070006;
+        public static int Animations_PopUpMenu_Center=0x7f070007;
+        public static int Animations_PopUpMenu_Left=0x7f070008;
+        public static int Animations_PopUpMenu_Reflect=0x7f07000a;
+        public static int Animations_PopUpMenu_Right=0x7f070009;
     }
 }
