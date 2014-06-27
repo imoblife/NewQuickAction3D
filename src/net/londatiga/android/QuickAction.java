@@ -6,6 +6,7 @@ import android.graphics.Rect;
 import android.graphics.drawable.Drawable;
 
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.ScrollView;
 import android.widget.RelativeLayout;
@@ -149,7 +150,7 @@ public class QuickAction extends PopupWindows implements OnDismissListener {
 	 * 
 	 * @param action  {@link ActionItem}
 	 */
-	public void addActionItem(ActionItem action) {
+	public void addActionItem(ActionItem action, boolean isShowDivider) {
 		actionItems.add(action);
 
 		String title = action.getTitle();
@@ -164,6 +165,10 @@ public class QuickAction extends PopupWindows implements OnDismissListener {
 			container = mInflater.inflate(R.layout.action_item_vertical, null);
 		}
 
+		LinearLayout item_ll = (LinearLayout) container
+				.findViewById(R.id.item_ll);
+		ImageView divider_iv = (ImageView) container
+				.findViewById(R.id.divider_iv);
 		ImageView img = (ImageView) container.findViewById(R.id.iv_icon);
 		TextView text = (TextView) container.findViewById(R.id.tv_title);
 		text.setTextColor(mContext.getResources().getColor(
@@ -184,7 +189,7 @@ public class QuickAction extends PopupWindows implements OnDismissListener {
 		final int pos = mChildPos;
 		final int actionId = action.getActionId();
 
-		container.setOnClickListener(new OnClickListener() {
+		item_ll.setOnClickListener(new OnClickListener() {
 			@Override
 			public void onClick(View v) {
 				if (mItemClickListener != null) {
@@ -217,6 +222,9 @@ public class QuickAction extends PopupWindows implements OnDismissListener {
 			mInsertPos++;
 		}
 
+		if (!isShowDivider) {
+			divider_iv.setVisibility(View.GONE);
+		}
 		mTrack.addView(container, mInsertPos);
 
 		mChildPos++;

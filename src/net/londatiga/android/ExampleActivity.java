@@ -51,12 +51,12 @@ public class ExampleActivity extends Activity {
 		final QuickAction quickAction = new QuickAction(this, QuickAction.VERTICAL);
 		
 		//add action items into QuickAction
-        quickAction.addActionItem(nextItem);
-		quickAction.addActionItem(prevItem);
-        quickAction.addActionItem(searchItem);
-        quickAction.addActionItem(infoItem);
-        quickAction.addActionItem(eraseItem);
-        quickAction.addActionItem(okItem);
+        quickAction.addActionItem(nextItem, true);
+		quickAction.addActionItem(prevItem, true);
+        quickAction.addActionItem(searchItem, true);
+        quickAction.addActionItem(infoItem, true);
+        quickAction.addActionItem(eraseItem, true);
+        quickAction.addActionItem(okItem, false);
         
         //Set listener for action item clicked
 		quickAction.setOnActionItemClickListener(new QuickAction.OnActionItemClickListener() {			

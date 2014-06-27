@@ -1,26 +1,39 @@
-<LinearLayout
-	xmlns:android="http://schemas.android.com/apk/res/android"
-	android:orientation="horizontal"
-	android:layout_width="fill_parent"
-	android:layout_height="wrap_content" 
-	android:clickable="true"
-	android:focusable="true"
-	android:padding="5dp"
-	android:background="@drawable/action_item_btn">
-        	
-	<ImageView
-		android:id="@+id/iv_icon" 
-		android:layout_width="wrap_content" 
-		android:layout_height="wrap_content"/>
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
 
-	<TextView 
-		android:id="@+id/tv_title"
-		android:layout_width="fill_parent" 
-		android:layout_height="fill_parent" 
-		android:gravity="center_vertical"
-		android:paddingLeft="@dimen/action_item_v_padding_left"
-		android:paddingRight="@dimen/action_item_v_padding_right"
-		android:text="Chart"
-		android:textColor="#fff"/>
-									         
-</LinearLayout>         
+    <LinearLayout
+        android:id="@+id/item_ll"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/action_item_btn"
+        android:clickable="true"
+        android:focusable="true"
+        android:orientation="horizontal"
+        android:padding="5dp" >
+
+        <ImageView
+            android:id="@+id/iv_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/action_item_v_padding_left"
+            android:paddingRight="@dimen/action_item_v_padding_right"
+            android:text="Chart"
+            android:textColor="#fff" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/divider_iv"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#66666666" />
+
+</LinearLayout>
