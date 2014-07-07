@@ -104,6 +104,24 @@ public class QuickAction extends PopupWindows implements OnDismissListener {
 		return actionItems.get(index);
 	}
 
+//	public void setItemSelected(int index, boolean selected) {
+//		getActionItem(index).setSelected(selected);
+//
+//		View container;
+//
+//		if (mOrientation == HORIZONTAL) {
+//			container = mInflater
+//					.inflate(R.layout.action_item_horizontal, null);
+//		} else {
+//			container = mInflater.inflate(R.layout.action_item_vertical, null);
+//		}
+//
+//		ImageView img = (ImageView) container.findViewById(R.id.iv_icon);
+//		if (img != null) {
+//			img.setSelected(selected);
+//		}
+//	}
+
 	/**
 	 * Set root view.
 	 * 
