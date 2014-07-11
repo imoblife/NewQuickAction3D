@@ -79,8 +79,8 @@ public final class R {
         public static int popup_vertical=0x7f030005;
     }
     public static final class string {
-        public static int app_name=0x7f060001;
-        public static int hello=0x7f060000;
+        public static int newquickaction3d_app_name=0x7f060001;
+        public static int newquickaction3d_hello=0x7f060000;
     }
     public static final class style {
         public static int Animations=0x7f070000;
