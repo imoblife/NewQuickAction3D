@@ -189,8 +189,6 @@ public class QuickAction extends PopupWindows implements OnDismissListener {
 				.findViewById(R.id.divider_iv);
 		ImageView img = (ImageView) container.findViewById(R.id.iv_icon);
 		TextView text = (TextView) container.findViewById(R.id.tv_title);
-		text.setTextColor(mContext.getResources().getColor(
-				android.R.color.black));
 
 		if (icon != null) {
 			img.setImageDrawable(icon);
@@ -240,9 +238,9 @@ public class QuickAction extends PopupWindows implements OnDismissListener {
 			mInsertPos++;
 		}
 
-		if (!isShowDivider) {
+//		if (!isShowDivider) {
 			divider_iv.setVisibility(View.GONE);
-		}
+//		}
 		mTrack.addView(container, mInsertPos);
 
 		mChildPos++;
@@ -323,8 +321,8 @@ public class QuickAction extends PopupWindows implements OnDismissListener {
 
 		//		setAnimationStyle(screenWidth, anchorRect.centerX(), onTop);
 
-		mWindow.showAtLocation(anchor, Gravity.NO_GRAVITY, xPos, yPos);
-	}
+        mWindow.showAtLocation(anchor, Gravity.NO_GRAVITY, xPos - 16, yPos);
+    }
 
 	/**
 	 * Set animation style
