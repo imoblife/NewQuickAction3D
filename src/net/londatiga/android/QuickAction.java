@@ -419,4 +419,9 @@ public class QuickAction extends PopupWindows implements OnDismissListener {
 	public interface OnDismissListener {
 		public abstract void onDismiss();
 	}
+
+
+	public boolean isShowing() {
+		return mWindow.isShowing();
+	}
 }
