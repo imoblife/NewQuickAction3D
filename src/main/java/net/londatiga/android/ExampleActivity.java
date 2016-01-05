@@ -86,7 +86,7 @@ public class ExampleActivity extends Activity {
 		
 		//show on btn1
 		Button btn1 = (Button) this.findViewById(R.id.btn1);
-		btn1.setOnClickListener(new View.OnClickListener() {
+		btn1.setOnClickListener(new OnClickListener() {
 			@Override
 			public void onClick(View v) {
 				quickAction.show(v);

@@ -390,7 +390,7 @@ public class QuickAction extends PopupWindows implements OnDismissListener {
 	 * Set listener for window dismissed. This listener will only be fired if the quicakction dialog is dismissed
 	 * by clicking outside the dialog or clicking on sticky item.
 	 */
-	public void setOnDismissListener(QuickAction.OnDismissListener listener) {
+	public void setOnDismissListener(OnDismissListener listener) {
 		setOnDismissListener(this);
 
 		mDismissListener = listener;
@@ -409,7 +409,7 @@ public class QuickAction extends PopupWindows implements OnDismissListener {
 	 */
 	public interface OnActionItemClickListener {
 		public abstract void onItemClick(QuickAction source, int pos,
-				int actionId);
+										 int actionId);
 	}
 
 	/**
