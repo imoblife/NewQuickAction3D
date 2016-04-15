@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <color name="primary">#333333</color>
-    <color name="secondary">#666666</color>
-    <color name="hint">#999999</color>
-    <color name="disable">#b0caef</color>
-    <color name="white">#ffffff</color>
-    <color name="orange">#ff7800</color>
-    <color name="blue">#0075d9</color>
+    <color name="nqa_primary">#333333</color>
+    <color name="nqa_secondary">#666666</color>
+    <color name="nqa_hint">#999999</color>
+    <color name="nqa_disable">#b0caef</color>
+    <color name="nqa_white">#ffffff</color>
+    <color name="nqa_orange">#ff7800</color>
+    <color name="nqa_blue">#0075d9</color>
 
     <color name="actionbar_bg">#0075d9</color>
     <color name="scanning_bg">#f9fafa</color>
@@ -19,6 +19,6 @@
     <color name="layout_wave">#b8b8b8</color>
 
     <color name="clean_count_orange">#ff7800</color>
-    <color name="button_normal">@color/blue</color>
+    <color name="button_normal">@color/nqa_blue</color>
     <color name="button_press">#0066bd</color>
 </resources>
