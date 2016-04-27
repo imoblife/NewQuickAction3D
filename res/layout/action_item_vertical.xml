@@ -33,7 +33,7 @@
                 android:paddingLeft="@dimen/action_item_v_padding_left"
                 android:paddingRight="@dimen/action_item_v_padding_right"
                 android:text="Chart"
-                android:textSize="16dp"
+                android:textSize="13dp"
                 android:textColor="#333333" />
         </LinearLayout>
 

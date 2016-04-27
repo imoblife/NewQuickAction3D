@@ -20,9 +20,10 @@
         android:layout_below="@+id/iv_icon"
         android:layout_centerHorizontal="true"
         android:gravity="center_horizontal"
+        android:textSize="13dp"
         android:paddingLeft="@dimen/action_item_h_padding_left"
         android:paddingRight="@dimen/action_item_h_padding_right"
         android:text="Chart"
-        android:textColor="#fff" />
+        android:textColor="#333333" />
 
 </RelativeLayout>
