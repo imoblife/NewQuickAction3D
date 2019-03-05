@@ -212,10 +212,8 @@ public class QuickAction extends PopupWindows implements OnDismissListener {
 					mItemClickListener.onItemClick(QuickAction.this, pos,
 							actionId);
 				}
-
 				if (!getActionItem(pos).isSticky()) {
 					mDidAction = true;
-
 					dismiss();
 				}
 			}
@@ -321,7 +319,7 @@ public class QuickAction extends PopupWindows implements OnDismissListener {
 
 		//		setAnimationStyle(screenWidth, anchorRect.centerX(), onTop);
 
-        mWindow.showAtLocation(anchor, Gravity.NO_GRAVITY, xPos - 16, yPos);
+        mWindow.showAtLocation(anchor, Gravity.NO_GRAVITY, xPos - 48, yPos - 20);
     }
 
 	/**
@@ -408,8 +406,7 @@ public class QuickAction extends PopupWindows implements OnDismissListener {
 	 *
 	 */
 	public interface OnActionItemClickListener {
-		public abstract void onItemClick(QuickAction source, int pos,
-				int actionId);
+		void onItemClick(QuickAction source, int pos, int actionId);
 	}
 
 	/**

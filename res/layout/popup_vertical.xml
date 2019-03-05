@@ -8,7 +8,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/popup_margin_top"
-        android:background="@drawable/popup"
+        android:background="@drawable/popup_bg"
         android:fadingEdgeLength="0dip"
         android:scrollbars="none" >
 
@@ -21,19 +21,5 @@
             android:padding="@dimen/popup_padding" />
     </ScrollView>
 
-    <!-- <ImageView -->
-    <!-- android:id="@+id/arrow_up" -->
-    <!-- android:layout_width="wrap_content" -->
-    <!-- android:layout_height="wrap_content" -->
-    <!-- android:src="@drawable/arrow_up" /> -->
-
-
-    <!-- <ImageView -->
-    <!-- android:id="@+id/arrow_down" -->
-    <!-- android:layout_width="wrap_content" -->
-    <!-- android:layout_height="wrap_content" -->
-    <!-- android:layout_below="@id/scroller" -->
-    <!-- android:layout_marginTop="-4dip" -->
-    <!-- android:src="@drawable/arrow_down" /> -->
 
 </RelativeLayout>
